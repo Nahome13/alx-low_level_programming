@@ -1,7 +1,7 @@
 #include <stdio.h>                                                              
 
 /**
- * main -print out astring
+ * main -print out a string to 
  *
  * Return: Always 0 (success)
  */
