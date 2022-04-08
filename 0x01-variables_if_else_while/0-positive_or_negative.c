@@ -5,7 +5,7 @@
 /**
  * main-print a random number state whether it is negative or positive
  *
- * return: Always 
+ * return: Always 0 
  */
 int main(void)
 {
