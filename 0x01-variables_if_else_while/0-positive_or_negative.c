@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - print a random number state whether it is negative , zero or positive.
+ *main - print a random number state whether it is negative , zero or positive.
  *
- * return: Always.
+ *Return: Always.
  */
 int main(void)
 {
