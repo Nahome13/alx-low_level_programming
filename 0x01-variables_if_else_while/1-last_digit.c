@@ -6,7 +6,7 @@
  *
  * Describtion: print  a number along with digit last digit is 0 ,greater than less than 6.                
  * return: 0
- *
+ */
 
 int main(void)
 {
@@ -23,8 +23,6 @@ printf("Last digit of %d is %d %s\n", n, n % 10,
 : (((n % 10) > 5) ? "and is greater than 5"
 
 : "and is less than 6 and not 0"));
-
-
 
 return (0);
 
