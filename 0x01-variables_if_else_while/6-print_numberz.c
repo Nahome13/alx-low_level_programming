@@ -3,14 +3,11 @@
 #include <stdio.h>
 
 
-
-/**
+/** 
+ *main -entry point
  *
- *main - entry point
- *Description: Print numbers 0 to 9 on one line
- *
- *Return: 0
- *
+ * Description: print numbers 0 to 9 on one line
+ * Return: 0
  */
 
 int main(void)
