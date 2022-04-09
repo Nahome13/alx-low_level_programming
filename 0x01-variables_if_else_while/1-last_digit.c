@@ -5,7 +5,7 @@
 /**
  * main - entry point
  *
- * Describtion: print  a number along with digit last digit is 0 ,greater than less than 6.                
+ * Describtion: print  a number along with digit last digit is 0 ,greater than less than 6.
  * return: 0
  */
 
