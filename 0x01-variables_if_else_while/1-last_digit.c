@@ -5,8 +5,8 @@
 /**
  * main - entry point
  *
- * Describtion: print  a number along with digit last digit is 0 ,greater than less than 6.
- * return: 0
+ * Describtion: print  a number along with digit last digit is 0 ,greate than6
+ * Return: 0
  */
 
 int main(void)
