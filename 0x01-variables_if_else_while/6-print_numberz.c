@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/** 
+/**
  *main -entry point
  *
  * Description: print numbers 0 to 9 on one line
