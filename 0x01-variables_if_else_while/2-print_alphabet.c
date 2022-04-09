@@ -6,8 +6,7 @@
  * main - ptint alphabet in low cases
  *
  * Describtion: to print alphabet in low casedd.
- * return: always 0
- *
+ * Return: 0
  */
 int main(void)
 {
