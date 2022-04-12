@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * islower - Short description, single line
+ * _islower - Short description, single line
+ * @c: contains value to be compared
  *
  * Description: contains value to be compared
  * Return: 0.
