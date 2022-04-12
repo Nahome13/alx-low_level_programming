@@ -1,16 +1,12 @@
 #include "main.h"
 
-
-
 /**
  * islower - Short description, single line
  *
  * Description: contains value to be compared
- * Description: int_islower parameter
- * Return: Always 0.
- *
+ * Return: 0.
  */
-
+ 
 int _islower(int c)
 {
 
