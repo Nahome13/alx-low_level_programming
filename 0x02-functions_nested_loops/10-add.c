@@ -3,64 +3,16 @@
 
 
 /**
- * main - program that prints the numbers from 00 to 99
+ * main - funcion that add two integer
  *
- * Numbers must be separated by ,followed by a space
- *
- * Numbers should be printed in ascending order with 2 digits
- *
- * You can only use the putchar function
- *
+ * @num1: the first integer
+ * @num2: the second integer
  * Return: 0
  */
- 
-
-
-
-int main(void)
-
+int add(void)
 {
+	int num1;
+	int num2;
 
-	int n1 = 48;
-
-	int n2 = 48;
-
-	int com = 44;
-
-	while (n1 <= 57)
-
-	{
-
-		n2 = 48;
-
-		while (n2 <= 57)
-
-		{
-
-			putchar(n1);
-
-			putchar(n2);
-
-			if (n1 != 57 || n2 != 57)
-
-			{
-
-				putchar(com);
-
-				putchar(32);
-
-			}
-
-			n2 += 1;
-
-		}
-
-		n1 += 1;
-
-	}
-
-	putchar('\n');
-
-	return (0);
-
+return (num1 + num2);
 }
