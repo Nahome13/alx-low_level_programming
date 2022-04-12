@@ -5,7 +5,8 @@
 /**
  * islower - Short description, single line
  *
- * Describtion: contains value to be compared
+ * Description: contains value to be compared
+ * Description: int_islower parameter
  * Return: Always 0.
  *
  */
