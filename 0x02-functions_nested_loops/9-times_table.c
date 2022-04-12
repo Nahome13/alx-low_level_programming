@@ -1,45 +1,55 @@
-#include <stdio.h>
+#include "main.h"
 
 
 /**
- * main -  program that prints all possible combinations of single-digit
+ * times_table - Prints the 9 times table, starting with 0.
  *
- * Numbers must be separated by ,followed by a space
- *
- * Numbers should be printed in ascending order
- *
- * You can only use the putchar function
- *
- * Return: 0
- */
+ */   
 
-int main(void)
+void times_table(void)
+
 {
-int n = 48;
-int com = 44;
-while (n <= 57)
+
+	int num, mult, prod;
+
+
+	for (num = 0; num <= 9; num++)
 
 	{
 
-		putchar(n);
+		_putchar('0');
 
-		if (n != 57)
+
+		for (mult = 1; mult <= 9; mult++)
 
 		{
 
-			putchar(com);
+			_putchar(',');
 
-			putchar(32);
+			_putchar(' ');
+
+
+
+			prod = num * mult;
+
+
+
+			if (prod <= 9)
+
+				_putchar(' ');
+
+			else
+
+				_putchar((prod / 10) + '0');
+
+
+
+			_putchar((prod % 10) + '0');
 
 		}
 
-		
-			n += 1;
-	}
-	
-	putchar('\n');
-	
-return (0);
+		_putchar('\n');
 
 	}
 
+}
