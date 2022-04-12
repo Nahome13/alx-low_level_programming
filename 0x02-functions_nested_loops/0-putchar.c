@@ -2,10 +2,10 @@
 
 
 /**
- *
  * main - Entry point
- * Return: nothing, return void
  *
+ * Describtion: print _putchar with new line
+ * Return: nothing, return void
  */
 
 int main(void)
