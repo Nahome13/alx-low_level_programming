@@ -5,7 +5,7 @@
 /**
  * islower - Short description, single line
  *
- * @c: contains value to be compared
+ * Describtion: contains value to be compared
  * Return: Always 0.
  *
  */
