@@ -7,7 +7,6 @@
  * Description: contains value to be compared
  * Return: 0.
  */
- 
 int _islower(int c)
 {
 
